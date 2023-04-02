@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.strength-meter {
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.strength-meter span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 2px;
+    border-radius: 50%;
+}
+
+.strength-meter .weak {
+    background-color: #ff4d4d;
+}
+
+.strength-meter .medium {
+    background-color: #ffc107;
+}
+
+.strength-meter .strong {
+    background-color: #4caf50;
+}
+
+.show-password {
+    position: relative;
+}
+
+.show-password input[type="checkbox"] {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.show-password input[type="checkbox"] + label {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.show-password input[type="checkbox"] + label:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.show-password input[type="checkbox"]:checked + label:before {
+    border-color: #4caf50;
+}
+
+.show-password input[type="checkbox"]:checked + label:after {
+    content: "\f070";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #4caf50;
+}
+
+.success-message {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.failure-message {
+  background-color: #2ec324;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 12px 24px; /* Some padding */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* On hover, change cursor to a hand */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+button.update {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+.button-container {
+  text-align: center;
+}
+
+
+
